@@ -9,9 +9,9 @@ from torch.utils.data import DataLoader, TensorDataset
 import streamlit as st
 
 # Load datasets
-train_df = pd.read_csv(r"C:\Users\abims\Documents\playground-series-s4e11\train.csv")
-test_df = pd.read_csv(r"C:\Users\abims\Documents\playground-series-s4e11\test.csv")
-sample_submission = pd.read_csv(r"C:\Users\abims\Documents\playground-series-s4e11\sample_submission.csv")
+train_df = pd.read_csv("/train.csv")
+test_df = pd.read_csv("/test.csv")
+sample_submission = pd.read_csv("/sample_submission.csv")
 
 
 # Preprocessing
